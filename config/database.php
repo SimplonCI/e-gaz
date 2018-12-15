@@ -3,7 +3,7 @@
    $servername = 'localhost';
    $database = 'e-gaz';
    $username = 'root';
-   $password = '';
+   $password = 'python92';
 
    // creation d'une connexion a la base de donnee
 
@@ -12,6 +12,6 @@
    // verification de l'etat de la connexion
    if(!$db){
      die('DB connexion failed : '. mysqli_connect_error());
-   } 
+   }
 
  ?>
