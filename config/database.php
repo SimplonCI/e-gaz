@@ -3,7 +3,7 @@
    $servername = 'localhost';
    $database = 'e-gaz';
    $username = 'root';
-   $password = 'python92';
+   $password = '';
 
    // creation d'une connexion a la base de donnee
 
