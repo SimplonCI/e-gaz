@@ -18,18 +18,18 @@
       <h4>Je m'inscris</h4>
       <div class="form">
         <form class="login-form" method="post">
-          <input type="text" placeholder="Nom" name="nom" id="nom"/>
-          <input type="text" placeholder="Prenom" name="prenom" id="prenom"/>
-          <input type="email" placeholder="Email" name="email" id="email"/>
-          <input type="tel" placeholder="Telephone" name="telephone" id="telephone"/>
-          <input type="password" placeholder="mot de passe" name="password" id="password"/>
-          <input type="password" placeholder="confirmer le mot de passe" name="passwordConfirm" id="passwordConfirm"/>
-          <button name="submit">Je m'inscris</button>
+          <input class="invalid" type="text" placeholder="Nom" name="nom" id="nom"  />
+          <input type="text" placeholder="Prenom" name="prenom" id="prenom"  />
+          <input type="email" placeholder="Email" name="email" id="email"  />
+          <input type="tel" placeholder="Telephone" name="telephone" id="telephone"  />
+          <input type="password" placeholder="mot de passe" name="password" id="password"  />
+          <input type="password" placeholder="confirmer le mot de passe" name="passwordConfirm" id="passwordConfirm"  />
+          <button onclick="registerValidation();" name="submit">Je m'inscris</button>
           <p class="message">Vous avez déjà un compte ? <a href="login.php">connexion </a></p>
         </form>
       </div>
     </div>
 
-
+  <script src="assets/js/login.js"></script>
   </body>
 </html>
