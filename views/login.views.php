@@ -20,8 +20,8 @@
         <form class="login-form" method="post">
           <input type="text" placeholder="Email ou téléphone" name="username" id="username"/>
           <input type="password" placeholder="mot de passe" name="password" id="password"/>
-          <button>Connexion</button>
-          <p class="message">Première visite ici ? <a href="#">créer un compte </a></p>
+          <button name="submit">Connexion</button>
+          <p class="message">Première visite ici ? <a href="register.php">créer un compte </a></p>
         </form>
       </div>
     </div>
